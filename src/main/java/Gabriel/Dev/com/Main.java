@@ -29,7 +29,7 @@ public class Main {
         // Enviar Email
         System.out.print("Ingrese su correo electrónico de Gmail: ");
         String email = scanner.nextLine();
-        String password = "uykp thdb gqya hdfk"; //TODO aca iria la app password (leer Readme.md)
+        String password = ""; //TODO aca iria la app password (leer Readme.md)
         System.out.print("Ingrese el correo electrónico del destinatario: ");
         String destinatario = scanner.nextLine();
         String subject = "Factura: " + factura.getNombrePropietario() + ", " + factura.getCicloCobro();
